@@ -4,7 +4,7 @@
 
 import axios from 'axios'
 
-const BASE = import.meta.env.VITE_API_URL || 'https://aibeo-zxdrive-backend.hf.space'
+const BASE = import.meta.env.VITE_API_URL || 'https://zxdrive-backend.onrender.com'
 
 const api = axios.create({ baseURL: BASE, timeout: 0 }) // timeout=0 for large uploads
 
